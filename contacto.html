@@ -15,9 +15,9 @@
     <body>
             <div class="sidebar">
                    
-                    <a href="index.html"><i class="fa fa-fw fa-wrench"></i> Menu Promo</a>
-                    <a href="postres.html"><i class="fa fa-fw fa-wrench"></i> Postres</a>
-                    <a href="contacto.html"><i class="fa fa-fw fa-envelope"></i> Contacto</a>
+                    <a href="index.html" ><i class="fa fa-fw fa-wrench" ></i> Menu Promo</a>
+                    <a href="postres.html" ><i class="fa fa-fw fa-wrench" ></i> Postres</a>
+                    <a href="contacto.html" id="contactobuttonAC"><i class="fa fa-fw fa-envelope"></i> Contacto</a>
                   </div>
 
                   <div class="main">
@@ -29,19 +29,20 @@
          <div class="formulario">
              <form action="#" method="POST">
                     <div>
-                            <label for="name">Nombre:</label>
-                            <input type="text" id="name" placeholder="Juan" />
+                        <!--<label for="name">Nombre:</label>-->  
+                            <input type="text" id="name" placeholder="Nombre" />
                         </div>
                         <div>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" placeholder="juan@gmail.com"/>
+                           <!--<label for="mail">E-mail:</label>--> 
+                            <input type="email" id="mail" placeholder="Email"/>
                         </div>
                         <div>
-                            <label for="msg">¿Cual es su pedido?:</label>
-                            <textarea id="msg" placeholder="Su mensaje aqui"></textarea>
+                           <!-- <label for="msg">¿Cual es su pedido?:</label>-->
+                            <textarea id="msg" placeholder="Pedido o Mensaje "></textarea>
                         </div>
                         <div class="button">
-                                <button type="submit">Enviar</button>
+                                
+                                <button type="submit" id="enviarcontacto" class="btn btn-success" >Enviar</button>
                             </div>
              </form>
          </div>
